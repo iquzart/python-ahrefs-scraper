@@ -1,0 +1,37 @@
+# Script configuration
+login_url: "https://ahrefs.com/user/login"
+username:  ""
+password: ""
+
+
+#Groups of URLs
+##############################################################
+#
+#   1. Add Group Name with '_' instead of blank space
+#      Example: Pool Cleaner should be writen as Pool_Cleaner 
+#   
+#   2. Use '#' infront of Money site URL
+#   3. Money Site URL must be quoted with ""
+#      Example: "#https://pooljudge.com/best-pool-cleaner/"
+#
+##############################################################
+Pool_cleaner:
+  - "#https://pooljudge.com/best-pool-cleaner/"
+  - https://cleanup.expert/robotic-pool-cleaners/
+  - https://www.thespruce.com/best-robotic-pool-cleaners-4682659
+  - https://www.swimuniversity.com/robotic-pool-cleaners/
+  - https://www.poolbots.com/robotic-pool-cleaner-reviews
+  - https://poolcleanerhub.com/best-robotic-pool-cleaners/
+  #- https://www.poolcleanerblog.com/robotic-pool-cleaner/
+  #- https://civilclean.com/best-robotic-pool-cleaner/
+bodybuilding:
+  - https://liftvault.com/programs/bodybuilding/
+  - https://www.t-nation.com/workouts/tried-and-true-bodybuilding-program-template
+  - https://rippedbody.com/intermediate-bodybuilding-program/
+  - https://www.muscleandstrength.com/workouts/10-week-mass-building-program.html
+  #- https://www.aworkoutroutine.com/bodybuilding-workouts-suck/
+  #- https://www.muscleandfitness.com/routine/workouts/workout-routines/pro-bodybuilder-routine-more-sculpted-and-muscular-physique/
+Cel_Mai_Bun_Tratament_Pentru_Viermi_Intestinali:
+  - "#https://www.cepes.ro/viermi-intestinali-varianta-naturista-tratament-medicamentos/"
+  - https://doc.ro/sanatate/7-remedii-naturale-contra-parazitilor-intestinali
+
